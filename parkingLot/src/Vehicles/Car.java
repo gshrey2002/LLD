@@ -1,5 +1,7 @@
 package Vehicles;
 
+import Parking.VehicleType;
+
 public class Car implements Vehicle{
     private String regnNumber;
 
@@ -7,14 +9,14 @@ public class Car implements Vehicle{
         this.regnNumber = regnNumber;
     }
 
-    private final String vehicleType="Car";
+    private final VehicleType vehicleType=VehicleType.CAR;
     @Override
     public String getRegistrationNumber() {
         return regnNumber;
     }
 
     @Override
-    public String getVehicleType() {
+    public VehicleType getVehicleType() {
         return vehicleType;
     }
 }
