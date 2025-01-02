@@ -21,7 +21,7 @@ public class ParkingLotApp {
 
 
 
-        parking.initializeSlots(2, 2); // 2 bike slots and 2 car slots
+        parking.initializeSlots(3, 4);
         Vehicle bike1 = new Bike("B1234");
         Vehicle car1 = new Car("C5678");
         Vehicle bike2 = new Bike("B5678");
@@ -29,7 +29,7 @@ public class ParkingLotApp {
         Vehicle bike3 = new Bike("B9999");
 
         Ticket bikeTicket = entryGate.issueTicket(bike1, parking);
-        bikeTicket.setTimestamp(bikeTicket.getTimestamp().minusHours(3)); // Assuming you add a setter for testing
+        bikeTicket.setTimestamp(bikeTicket.getTimestamp().minusHours(3));
 
         Ticket carTicket = entryGate.issueTicket(car1, parking);
 
