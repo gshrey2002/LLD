@@ -18,7 +18,7 @@ Each folder or file in this repository represents an individual project or exerc
 ### Problem Solving & Projects
 - **Parking Lot Design**: A project that demonstrates how to apply the Strategy Pattern to a parking lot system for handling different vehicle types (e.g., Bike, Car).
 - **Library Management System**: An LLD exercise focused on building a library system using various design patterns.
-- **And Many more...
+- And Many more...
 
 ## How to Run
 1. Clone this repository to your local machine:
